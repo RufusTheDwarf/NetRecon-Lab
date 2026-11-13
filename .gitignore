@@ -1,0 +1,23 @@
+# Fichiers OS/éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Fichiers temporaires et secrets
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.pcap
+*.pcapng
+
+# Les exports Nmap font partie des preuves et sont suivis dans un repo privé.
