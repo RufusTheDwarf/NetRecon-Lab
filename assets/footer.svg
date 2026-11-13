@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 90">
+  <title id="title">Pied de page NetRecon Lab</title>
+  <desc id="desc">Trait horizontal ponctué d'un signal réseau géométrique et de cinq points.</desc>
+  <rect width="1200" height="90" rx="18" fill="#0B1220"/>
+  <path d="M40 45h330l18-20 25 40 28-49 32 57 23-28h524" fill="none" stroke="#53E3C2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#8AB9FF"><circle cx="1060" cy="45" r="7"/><circle cx="1085" cy="45" r="7"/><circle cx="1110" cy="45" r="7"/><circle cx="1135" cy="45" r="7"/><circle cx="1160" cy="45" r="7"/></g>
+</svg>
