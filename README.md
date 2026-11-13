@@ -1,499 +1,311 @@
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04110B,22:0D2E27,48:116B58,73:19B98F,100:A4E85E&height=270&section=header&text=NETRECON%20LAB&fontSize=59&fontColor=FFFFFF&fontAlignY=34&desc=NETWORK%20RECONNAISSANCE%20%2F%20NMAP%20%2F%20CYBERSECURITY&descSize=15&descAlignY=57&animation=fadeIn" width="100%" alt="NetRecon Lab animated network reconnaissance banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04110B,22:0D2E27,48:116B58,73:19B98F,100:A4E85E&height=270&section=header&text=NETRECON%20LAB&fontSize=59&fontColor=FFFFFF&fontAlignY=34&desc=NETWORK%20RECONNAISSANCE%20%2F%20NMAP%20%2F%20CYBERSECURITY&descSize=15&descAlignY=57&animation=fadeIn" width="100%" alt="Bannière animée NetRecon Lab, créée par Capsule Render" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=900&color=27E5A6&center=true&vCenter=true&width=820&height=52&lines=Observe+the+network.+Verify+the+evidence.;5+authorized+hosts.+7+scan+modes.;TCP+%2B+UDP.+No+guesswork.;Discover.+Document.+Explain." width="90%" alt="Animated network reconnaissance messages" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=900&color=27E5A6&center=true&vCenter=true&width=830&height=52&lines=FIDUVENNES+%2F+NETWORK+SECURITY;BUILD.+AUDIT.+SECURE.;3+PHASES.+8+SESSIONS.;AUTHORIZED+SCOPE.+VERIFIABLE+EVIDENCE." width="90%" alt="Sous-titre animé décrivant les étapes du projet FiduVennes" />
 
 # NETRECON LAB
 
-**MODULE 184 // NETWORK RECONNAISSANCE // DOCUMENTED EVIDENCE**
+**MODULE 184 // PROJET FIDUVENNES // IMPLÉMENTER LA SÉCURITÉ RÉSEAU**
 
-**Reconnaissance réseau encadrée avec Nmap, Bash et Kali Linux.**
-
-Un projet pédagogique pour découvrir un périmètre autorisé, identifier ses services et produire un rapport fondé sur des preuves.
+Documentation de préparation d'un projet d'infrastructure, d'audit et de sécurisation de succursales fictives, à partir du cahier des charges FiduVennes.
 
 <p>
-<a href="https://github.com/RufusTheDwarf/NetRecon-Lab"><img src="https://img.shields.io/badge/PROJECT-NETRECON_LAB-126B54?style=flat" height="20" alt="Projet NetRecon Lab" /></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-17866C?style=flat&logo=opensourceinitiative&logoColor=white" height="20" alt="Licence MIT" /></a>
-<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/SCRIPT-BASH-4EAA25?style=flat&logo=gnubash&logoColor=white" height="20" alt="Script en Bash" /></a>
-<a href="https://nmap.org/"><img src="https://img.shields.io/badge/TOOL-NMAP-16799A?style=flat" height="20" alt="Outil Nmap" /></a>
-<a href="https://www.kali.org/"><img src="https://img.shields.io/badge/LAB-KALI_LINUX-236A89?style=flat&logo=kalilinux&logoColor=white" height="20" alt="Laboratoire Kali Linux" /></a>
-<a href="README.md"><img src="https://img.shields.io/badge/MODULE-184-525C65?style=flat" height="20" alt="Module pédagogique 184" /></a>
+<a href="https://github.com/RufusTheDwarf/NetRecon-Lab"><img src="https://img.shields.io/badge/PROJECT-NETRECON_LAB-126B54?style=flat" alt="NetRecon Lab" /></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-17866C?style=flat&logo=opensourceinitiative&logoColor=white" alt="MIT" /></a>
+<a href="https://www.proxmox.com/en/products/proxmox-virtual-environment/overview"><img src="https://img.shields.io/badge/VIRTUALIZATION-Proxmox_VE-E57000?style=flat" alt="Proxmox VE, technologie prévue" /></a>
+<a href="https://opnsense.org/"><img src="https://img.shields.io/badge/FIREWALL-OPNsense-EA5B0C?style=flat" alt="OPNsense, technologie prévue" /></a>
+<a href="https://www.kali.org/"><img src="https://img.shields.io/badge/WORKSTATION-Kali_Linux-236A89?style=flat&logo=kalilinux&logoColor=white" alt="Kali Linux, poste technique prévu" /></a>
+<a href="https://nmap.org/"><img src="https://img.shields.io/badge/TOOL-Nmap-16799A?style=flat" alt="Nmap, outil présent dans le dépôt" /></a>
+<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/CODE-Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" alt="Script Bash existant" /></a>
 </p>
 
 <p>
-<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/TARGETS-5_APPROVED_IPS-126B54?style=flat" height="20" alt="Cinq adresses autorisées" /></a>
-<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/SCAN_MODES-7-157C80?style=flat" height="20" alt="Sept modes de scan" /></a>
-<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/PROTOCOLS-TCP_%2B_UDP-176783?style=flat" height="20" alt="Protocoles TCP et UDP" /></a>
-<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/PREVIEW-DRY_RUN-187A63?style=flat" height="20" alt="Prévisualisation sans scan" /></a>
-<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/EXPORTS-NMAP_%2B_XML_%2B_GNMAP-735B2B?style=flat" height="20" alt="Trois formats de sortie Nmap" /></a>
+<img src="https://img.shields.io/badge/PHASES-3-17866C?style=flat" alt="Trois phases" />
+<img src="https://img.shields.io/badge/SESSIONS-8-157C80?style=flat" alt="Huit séances" />
+<img src="https://img.shields.io/badge/SITES-4-16799A?style=flat" alt="Quatre succursales" />
+<img src="https://img.shields.io/badge/AIAS-LEVEL_2-735B2B?style=flat" alt="AIAS niveau 2" />
+<img src="https://img.shields.io/badge/AUDIT-NON_DESTRUCTIVE-126B54?style=flat" alt="Audit non destructif obligatoire" />
+<img src="https://img.shields.io/badge/PROGRESS-TO_DOCUMENT-6D747A?style=flat" alt="Avancement à documenter" />
 </p>
 
 <p>
-<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/stargazers"><img src="https://img.shields.io/github/stars/RufusTheDwarf/NetRecon-Lab?style=flat&color=17866C" height="20" alt="Étoiles GitHub" /></a>
-<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/forks"><img src="https://img.shields.io/github/forks/RufusTheDwarf/NetRecon-Lab?style=flat&color=16799A" height="20" alt="Forks GitHub" /></a>
-<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/issues"><img src="https://img.shields.io/github/issues/RufusTheDwarf/NetRecon-Lab?style=flat&color=B08038" height="20" alt="Issues GitHub" /></a>
-<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/commits/main"><img src="https://img.shields.io/github/last-commit/RufusTheDwarf/NetRecon-Lab?style=flat&color=157C80" height="20" alt="Date du dernier commit" /></a>
-<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/tree/main"><img src="https://img.shields.io/badge/BRANCH-main-37474F?style=flat&logo=git&logoColor=white" height="20" alt="Branche principale main" /></a>
+<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/stargazers"><img src="https://img.shields.io/github/stars/RufusTheDwarf/NetRecon-Lab?style=flat&color=17866C" alt="Étoiles GitHub" /></a>
+<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/forks"><img src="https://img.shields.io/github/forks/RufusTheDwarf/NetRecon-Lab?style=flat&color=16799A" alt="Forks GitHub" /></a>
+<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/issues"><img src="https://img.shields.io/github/issues/RufusTheDwarf/NetRecon-Lab?style=flat&color=B08038" alt="Issues GitHub" /></a>
+<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/commits/main"><img src="https://img.shields.io/github/last-commit/RufusTheDwarf/NetRecon-Lab?style=flat&color=157C80" alt="Dernier commit" /></a>
+<a href="https://github.com/RufusTheDwarf/NetRecon-Lab/tree/main"><img src="https://img.shields.io/badge/BRANCH-main-37474F?style=flat&logo=git&logoColor=white" alt="Branche main" /></a>
 </p>
 
-[**Source**](https://github.com/RufusTheDwarf/NetRecon-Lab) · [**Guide des commandes**](docs/commandes.md) · [**Inventaire**](docs/inventaire.md) · [**Rapport**](docs/rapport.md) · [**Documentation Nmap**](https://nmap.org/book/man.html)
+[**Dépôt**](https://github.com/RufusTheDwarf/NetRecon-Lab) · [**Code existant**](scripts/scan-lab.sh) · [**Documentation Nmap**](https://nmap.org/book/man.html) · [**Licence**](LICENSE)
 
 </div>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="Séparateur fin avec signal vert et cyan" /></p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt="Séparateur vert et cyan" /></p>
 
 > [!IMPORTANT]
-> **Périmètre autorisé : `10.99.0.10`, `10.99.0.11`, `10.99.0.12`, `10.99.0.13` et `10.99.0.14` uniquement.**
-> Le reste du réseau est hors scope. Ne pas scanner le `/24` entier : à partir de `.100`, les machines appartiennent à d'autres élèves. Aucun brute force, aucune exploitation et aucune tentative d'accès non autorisé.
+> **Ce README est un support de préparation et d'organisation, pas un livrable d'audit ni un concept de sécurité.** L'étape 1 doit reproduire exactement la configuration décrite pour la succursale attribuée, même si elle semble peu sûre. L'audit nécessite une autorisation écrite, est non destructif et se limite à la succursale attribuée. Toute étape doit être validée par l'enseignant avant de passer à la suivante.
 
-## <img src="assets/sections/01.svg" width="32" height="32" alt="Section 01" /> 01 / Présentation
+## <img src="assets/sections/01.svg" width="32" height="32" alt="Section 01" /> 01 / Contexte : FiduVennes
 
-**NetRecon Lab** est un laboratoire d'analyse réseau créé pour le module 184. L'exercice consiste à reconstituer la documentation d'une succursale fictive ou isolée, non à réaliser une intrusion. On utilise les réponses réseau obtenues par Nmap pour décrire les hôtes, comprendre les services proposés et identifier des points de vigilance.
+**FiduVennes SA** a racheté quatre fiduciaires vaudoises. Les responsables IT de ces succursales ont démissionné avant la centralisation informatique à Vennes. La documentation technique des sites constitue la base du projet.
 
-Le dépôt réunit trois éléments complémentaires :
+Les équipes prennent successivement trois rôles : **intégrateur**, **auditeur**, puis **responsable de la sécurisation**. La mission porte sur **8 séances** et implique un transfert unique de succursale après la mise en place. La succursale auditée en étape 2 reste celle que l'équipe sécurise en étape 3.
 
-- **Un script Bash opérationnel** pour lancer sept catégories de scans Nmap sur une liste fixe d'IP.
-- **Des supports de travail** pour comparer les résultats, inventorier les machines et préparer les réponses de l'exercice.
-- **Des emplacements pour preuves** permettant de rattacher chaque affirmation à une commande, une date, une cible et un fichier exporté.
+Ce dépôt conserve son nom **NetRecon-Lab**, mais le sujet du module 184 dépasse désormais Nmap : il inclut Proxmox VE, OPNsense, des machines virtuelles, un poste Kali à deux interfaces, des contrôles de services, un audit et des mesures de sécurité.
 
-Les observations sont à relever dans le laboratoire. Les fichiers `docs/inventaire.md`, `docs/reponses.md` et `docs/rapport.md` contiennent actuellement des modèles, **pas des résultats validés**.
+**État constaté du dépôt :** le script de reconnaissance et les documents précédents restent ceux d'un premier laboratoire Nmap. La nouvelle infrastructure FiduVennes n'est pas implémentée dans le dépôt audité.
 
-<p align="center">
-<a href="scripts/scan-lab.sh"><img src="https://img.shields.io/badge/IMPLEMENTED-SCAN_SCRIPT-17866C?style=flat" height="20" alt="Script de scan présent" /></a>
-<a href="docs/rapport.md"><img src="https://img.shields.io/badge/REPORT-TEMPLATE-B08038?style=flat" height="20" alt="Rapport modèle à compléter" /></a>
-<a href="results/nmap/"><img src="https://img.shields.io/badge/SCAN_RESULTS-NOT_INCLUDED-666666?style=flat" height="20" alt="Aucun résultat de scan fourni" /></a>
-</p>
-
-## <img src="assets/sections/02.svg" width="32" height="32" alt="Section 02" /> 02 / Périmètre autorisé
-
-La liste des cibles est inscrite directement dans `scripts/scan-lab.sh`. Le programme ne propose ni argument `--target`, ni lecture de plage depuis un fichier, ni saisie libre d'une adresse.
-
-| Adresse | Dans le périmètre | État de l'hôte |
-| :--- | :---: | :--- |
-| `10.99.0.10` | Oui | À observer |
-| `10.99.0.11` | Oui | À observer |
-| `10.99.0.12` | Oui | À observer |
-| `10.99.0.13` | Oui | À observer |
-| `10.99.0.14` | Oui | À observer |
-
-> **Cinq cibles prévues ne signifient pas cinq hôtes actifs.** Une machine peut ne pas répondre à la découverte, être éteinte ou filtrer certaines sondes.
+## <img src="assets/sections/02.svg" width="32" height="32" alt="Section 02" /> 02 / Les trois étapes du projet
 
 <div align="center">
-<img src="assets/scope-topology.svg" width="96%" alt="Cinq équipements réseau abstraits reliés au poste de travail, sans statut réseau présumé" />
-
-<sub>Illustration conceptuelle du périmètre. Aucune topologie réelle ni aucun service découvert ne sont représentés.</sub>
+<img src="assets/fiduv-phases.svg" width="100%" alt="Trois cartes illustrées dans l'ordre : mise en place, audit et sécurisation" />
+<sub>Schéma organisationnel adapté du cahier des charges, sans indication d'avancement réel.</sub>
 </div>
 
-Le réseau doit être celui du laboratoire. Vérifier avant l'exécution l'interface Kali, la table de routage, et l'autorisation de l'enseignant ou du responsable du réseau. Pour cet exercice, les vérifications manuelles se limitent à **Nmap, `ping`, `nc` et `curl`**.
+| Étape | Séances | Mission | Livrable |
+| :---: | :---: | :--- | :--- |
+| **1. Mise en place** | 1 à 2 | Reconstruire exactement l'infrastructure de la succursale confiée | Infrastructure validée |
+| **2. Audit** | 3 à 5 | Examiner une succursale construite par une autre équipe | Rapport d'audit |
+| **3. Sécurisation** | 6 à 8 | Corriger les problèmes identifiés sans casser les besoins métier | Concept de sécurité et démonstration |
 
-<p align="center"><img src="assets/divider.svg" width="85%" alt="Séparateur du périmètre" /></p>
+L'enseignant représente le **client**. Il contrôle et valide chaque étape avant d'autoriser la suivante. Le calendrier ci-dessus correspond aux échéances du cahier des charges, pas à l'avancement de l'équipe.
 
-## <img src="assets/sections/03.svg" width="32" height="32" alt="Section 03" /> 03 / Objectifs du laboratoire
+## <img src="assets/sections/03.svg" width="32" height="32" alt="Section 03" /> 03 / Équipes, succursales et rotation
 
-Chaque phase doit déboucher sur une observation et, lorsque c'est possible, sur une preuve exportée.
+| Équipe | Succursale à construire | Ancienne fiduciaire | Code | Succursale à auditer et sécuriser |
+| :---: | :--- | :--- | :---: | :--- |
+| **A** | Morges | Fidu Zizelettes | `MOS` | Yverdon |
+| **B** | Yverdon | Fidu Tya-Bailli | `YVN` | Vevey |
+| **C** | Vevey | Fidu Pâtés-Froids | `VEY` | Cheseaux |
+| **D** | Cheseaux | Fidu Gremauds | `CHX` | Morges |
 
-| Phase | Question à résoudre | Livrable attendu |
-| :---: | :--- | :--- |
-| 01 | Quelles adresses répondent ? | Inventaire de découverte, MAC et fabricant si visibles |
-| 02 | Quels ports TCP sont accessibles ? | Comparaison scan standard / scan complet |
-| 03 | Quels services utilisent ces ports ? | Protocoles, noms, versions et incertitudes |
-| 04 | Quel OS semble utilisé ? | Estimation Nmap et niveau de confiance |
-| 05 | Les observations peuvent-elles être vérifiées ? | Vérifications `nc` ou `curl` sur ports réellement observés |
-| 06 | Que révèlent les ports UDP ciblés ? | Interprétation des états UDP |
-| 07 | Quels risques méritent une correction ? | Trois constats et recommandations fondés sur des preuves |
+<div align="center">
+<img src="assets/fiduv-rotation.svg" width="96%" alt="Illustration de la rotation prévue : Morges vers Yverdon, Yverdon vers Vevey, Vevey vers Cheseaux, Cheseaux vers Morges" />
+<sub>Flèches : succursale construite vers succursale auditée puis sécurisée.</sub>
+</div>
 
-Le code `LAB{...}` demandé par l'exercice doit être noté **uniquement s'il est réellement découvert**, avec la méthode et la preuve correspondantes. Il n'est pas présent dans ce README.
+**Équipe personnelle et succursale attribuée : non renseignées.** Le cahier des charges ne donne pas les noms des membres. Aucune équipe n'est supposée être la vôtre.
 
-<div align="center"><img src="assets/workflow.svg" width="92%" alt="Cinq étapes schématiques du travail : autorisation, découverte, export, analyse et documentation" />
-<sub>Cycle de travail illustratif. Les résultats dépendent des observations réalisées.</sub></div>
+## <img src="assets/sections/04.svg" width="32" height="32" alt="Section 04" /> 04 / Plan d'adressage officiel
 
-## <img src="assets/sections/04.svg" width="32" height="32" alt="Section 04" /> 04 / Ce que contient le projet
+Les réseaux des succursales appartiennent au bloc `10.30.0.0/16`. Le **troisième octet** du LAN reprend les deux premiers chiffres du code postal ; le **bridge Proxmox** utilise le code postal entier.
 
-Le cœur du dépôt est [`scripts/scan-lab.sh`](scripts/scan-lab.sh), un script Bash utilisant `set -euo pipefail`, un tableau constant `TARGETS`, une validation des arguments et un répertoire de sortie calculé à partir de son emplacement sur disque.
+| Succursale | Code postal | Réseau LAN | Bridge interne |
+| :--- | :---: | :--- | :--- |
+| Morges | `1110` | `10.30.11.0/24` | `vmbr1110` |
+| Yverdon | `1400` | `10.30.14.0/24` | `vmbr1400` |
+| Vevey | `1800` | `10.30.18.0/24` | `vmbr1800` |
+| Cheseaux | `1033` | `10.30.10.0/24` | `vmbr1033` |
 
-**Fonctions confirmées dans le code :**
+Dans chaque LAN, la répartition prévue est identique :
 
-- Sélection d'un mode parmi `discover`, `default`, `full`, `versions`, `verify`, `os` et `udp`.
-- Acceptation facultative de `--dry-run` en deuxième et dernier argument.
-- Vérification de la présence de `nmap` pour les scans exécutés.
-- Vérification de `sudo` pour les modes nécessitant des privilèges lorsqu'on n'est pas root.
-- Ajout systématique de `-n` et de `-oA` aux commandes construites.
-- Export daté dans `results/nmap/`, avec un ensemble par hôte pour les modes individuels.
-- Affichage de la commande avant l'exécution pour faciliter la traçabilité.
+| Adresse ou plage | Usage prévu |
+| :--- | :--- |
+| `.1` | Interface LAN du pare-feu, passerelle et DNS |
+| `.10` à `.19` | Serveurs en IP fixes |
+| `.20` à `.29` | Postes clients en IP fixes |
+| `.100` à `.199` | Plage réservée au DHCP |
 
-**Ce qui n'est pas implémenté :** interface graphique, découverte automatique d'un sous-réseau arbitraire, scanner de vulnérabilités, exploitation, agrégation automatique des rapports, Docker et pipeline CI. Les documents de synthèse sont remplis manuellement.
+**Important :** les plages sont des règles de conception, pas une liste de machines déjà installées ni une autorisation de scanner toute la plage. Le côté WAN du pare-feu est relié à `vmbr0` ; **son adresse est communiquée par l'enseignant**, et ne doit pas être inventée.
 
-## <img src="assets/sections/05.svg" width="32" height="32" alt="Section 05" /> 05 / Prérequis et préparation
+## <img src="assets/sections/05.svg" width="32" height="32" alt="Section 05" /> 05 / Architecture attendue
 
-L'environnement prévu est **Kali Linux connecté au laboratoire autorisé**. Le dépôt ne fixe pas de version minimale de Kali Linux, Bash ou Nmap : il faut donc relever celles réellement utilisées, sans annoncer une compatibilité non testée.
+<div align="center">
+<img src="assets/fiduv-architecture.svg" width="100%" alt="Architecture logique : Proxmox, bridge WAN vmbr0, pare-feu OPNsense, bridge LAN interne et poste Kali connecté aux deux côtés" />
+<sub>Vue logique issue du cahier des charges, pas un schéma d'infrastructure déployée.</sub>
+</div>
 
-| Élément | Rôle | Vérification |
+- **Blade / Proxmox VE** : plateforme de virtualisation de la succursale.
+- **`vmbr0`** : bridge du côté WAN d'OPNsense.
+- **`vmbrXXXX`** : bridge LAN interne de la succursale, selon le code postal.
+- **OPNsense** : pare-feu avec une interface WAN et une interface LAN ; l'IP LAN se termine par `.1`.
+- **Poste Kali `CLIENT-xx-02`** : poste du service informatique, avec **une interface WAN et une interface LAN permanentes**. Il sert à configurer les machines à l'étape 1 et à tester la succursale aux étapes 2 et 3.
+- **Serveurs et poste du secrétariat** : à installer selon le document technique confidentiel propre à la succursale.
+
+Les machines sont nommées `TYPE-SITE-NN` ou `TYPE-SITE-RÔLE`, par exemple `FW-MOS-01` et `SRV-MOS-WEB`. Ces noms sont des **exemples de convention**, pas la preuve de présence des machines.
+
+## <img src="assets/sections/06.svg" width="32" height="32" alt="Section 06" /> 06 / Étape 1 : mise en place (séances 1 et 2)
+
+L'équipe reçoit une blade, une clé USB, le document technique de sa succursale et les fichiers de données associés.
+
+La préparation peut suivre cet ordre, **sans remplacer les consignes propres à la succursale** :
+
+1. Installer **Proxmox VE** sur la blade.
+2. Créer le **bridge interne** approprié.
+3. Préparer le poste informatique **`CLIENT-xx-02`**.
+4. Installer **OPNsense**, avec WAN sur `vmbr0` et LAN sur le bridge interne.
+5. Installer les serveurs et le poste du secrétariat définis dans le document de la succursale.
+6. Contrôler chaque service demandé et noter le résultat dans le journal.
+
+> [!CAUTION]
+> **Ne pas sécuriser prématurément l'infrastructure pendant l'étape 1.** Le cahier des charges demande de reproduire le document à la lettre, même lorsqu'une configuration paraît peu sûre. Si un point manque ou paraît ambigu, interroger l'enseignant-client ; ne pas inventer de configuration. Le document technique de la succursale est confidentiel et ne doit pas être partagé avec les autres équipes.
+
+La validation de fin d'étape repose sur le contrôle des services par l'enseignant et la remise de la **liste des comptes des machines** par le canal demandé. Ne pas déposer cette liste, les identifiants ou les fichiers confidentiels dans ce dépôt public.
+
+## <img src="assets/sections/07.svg" width="32" height="32" alt="Section 07" /> 07 / Étape 2 : audit de sécurité (séances 3 à 5)
+
+L'équipe reçoit **une autorisation écrite FiduVennes**, l'accès au poste `CLIENT-xx-02` de la succursale cible et le guide de l'étape 2. Elle audite une infrastructure montée par une autre équipe.
+
+| Perspective | Point de départ | Objectif |
 | :--- | :--- | :--- |
-| Kali Linux | Poste depuis lequel l'exercice est mené | `cat /etc/os-release` |
-| Bash | Exécution du script | `bash --version` |
-| Nmap | Découverte et scans | `nmap --version` |
-| Git | Clonage du dépôt | `git --version` |
-| `sudo` | Élévation pour les modes `os` et `udp` | `command -v sudo` |
-| `ping`, `nc`, `curl` | Vérifications prévues par l'exercice | `command -v ping nc curl` |
+| **Audit externe** | Interface **WAN** du poste Kali | Observer les services accessibles du point de vue extérieur prévu par le laboratoire |
+| **Audit interne** | Interface **LAN** du même poste Kali | Observer les services atteignables depuis le réseau de la succursale |
 
-Commandes de contrôle avant tout trafic réseau :
+L'audit doit rester **non destructif** : aucune donnée supprimée ou modifiée, aucun changement de mot de passe et aucune attaque par déni de service. Les autres blades, les autres succursales et le réseau de l'école sont hors périmètre. Le guide de l'étape 2 et l'autorisation écrite déterminent les tests permis.
 
-```bash
-cat /etc/os-release
-bash --version
-nmap --version
-git --version
-command -v sudo
-command -v ping nc curl
-ip -br a
-ip route
-```
+Le livrable est un **rapport d'audit rédigé par l'équipe**, avec une preuve (commande et résultat), une gravité et le risque pour la fiduciaire pour chaque faille. Ce README n'est pas ce rapport.
 
-Les commandes `ip` servent à examiner les interfaces et routes. N'en déduis pas qu'une interface est forcément celle du laboratoire sans vérifier la configuration réelle.
+## <img src="assets/sections/08.svg" width="32" height="32" alt="Section 08" /> 08 / Étape 3 : sécurisation (séances 6 à 8)
 
-<p align="center">
-<a href="https://www.kali.org/docs/"><img src="https://img.shields.io/badge/DOCS-KALI-236A89?style=flat&logo=kalilinux&logoColor=white" height="20" alt="Documentation Kali" /></a>
-<a href="https://www.gnu.org/software/bash/manual/"><img src="https://img.shields.io/badge/DOCS-BASH-4EAA25?style=flat&logo=gnubash&logoColor=white" height="20" alt="Documentation Bash" /></a>
-<a href="https://nmap.org/book/man.html"><img src="https://img.shields.io/badge/DOCS-NMAP-16799A?style=flat" height="20" alt="Documentation Nmap" /></a>
-</p>
+Après l'audit, l'équipe conserve **la même succursale** et reçoit les comptes administrateur ainsi que le guide de l'étape 3.
 
-## <img src="assets/sections/06.svg" width="32" height="32" alt="Section 06" /> 06 / Installation et première exécution
+Les attentes du cahier des charges sont :
 
-Cloner le dépôt depuis GitHub :
+1. Rédiger un **concept de sécurité** qui propose une mesure par faille du rapport, avec une priorité.
+2. Tenir compte du **besoin métier** : une correction ne doit pas rendre impossible une fonction nécessaire, par exemple le travail à distance de la secrétaire si celui-ci était prévu.
+3. Appliquer les mesures autorisées sur l'infrastructure.
+4. **Rejouer les tests de l'étape 2** pour démontrer le résultat avant/après.
 
-```bash
-git clone https://github.com/RufusTheDwarf/NetRecon-Lab.git
-cd NetRecon-Lab
-```
+Les livrables sont un **document de concept et de mesures appliquées**, puis une **démonstration devant l'enseignant**. Les preuves et conclusions finales doivent provenir des actions de l'équipe, pas de démonstrations inventées.
 
-Afficher d'abord ce que le script compte faire. `--dry-run` n'exécute pas Nmap et ne crée pas de fichiers de résultats.
+## <img src="assets/sections/09.svg" width="32" height="32" alt="Section 09" /> 09 / Calendrier et livrables
 
-```bash
-bash scripts/scan-lab.sh discover --dry-run
-bash scripts/scan-lab.sh default --dry-run
-bash scripts/scan-lab.sh udp --dry-run
-```
-
-Vérifier que **chacune** des commandes imprimées contient exclusivement les cinq adresses autorisées. Vérifier ensuite l'interface Kali et la connectivité au réseau du laboratoire avec le responsable de l'exercice.
-
-Une fois ce contrôle terminé :
-
-```bash
-# Découverte sans scan de ports
-bash scripts/scan-lab.sh discover
-
-# Scan TCP standard de chaque adresse
-bash scripts/scan-lab.sh default
-```
-
-Le script se lance via Bash. Le rendre exécutable avec `chmod +x` n'est pas nécessaire avec cette méthode. Aucun fichier `.env` n'est chargé et aucun service n'est à démarrer.
-
-> [!NOTE]
-> Les modes `os` et `udp` demandent `sudo` si nécessaire. Selon l'environnement, une authentification peut être demandée. Le script écrit ses résultats relativement à la racine du dépôt, même lorsqu'il est lancé depuis un autre répertoire.
-
-<p align="center"><img src="assets/divider.svg" width="85%" alt="Séparateur des procédures de scan" /></p>
-
-## <img src="assets/sections/07.svg" width="32" height="32" alt="Section 07" /> 07 / Guide complet des sept modes
-
-Chaque commande ci-dessous correspond à un mode existant dans le script. Dans tous les cas, les cibles restent fixes et la résolution DNS inverse est désactivée par `-n`.
-
-### Découverte des machines : `discover`
-
-```bash
-bash scripts/scan-lab.sh discover
-```
-
-Utilise `-sn` pour chercher les hôtes répondants **sans scanner les ports**. Sur un même réseau Ethernet, une découverte ARP peut contribuer à identifier des MAC. Selon la topologie et les permissions, ces informations peuvent ne pas être disponibles. Un silence ne démontre pas qu'un équipement est éteint.
-
-### Scan TCP standard : `default`
-
-```bash
-bash scripts/scan-lab.sh default
-```
-
-Nmap analyse par défaut les **1 000 ports TCP les plus fréquents**, pas tous les ports possibles. Il peut donc manquer un service écoutant sur un port plus rare. Le script lance ce contrôle individuellement sur les cinq adresses.
-
-### Scan TCP complet : `full`
-
-```bash
-bash scripts/scan-lab.sh full
-```
-
-L'option `-p-` demande l'examen de tous les ports TCP numérotés de **1 à 65 535**. Comparer les résultats avec ceux de `default` pour documenter les services éventuellement absents du scan standard. Le temps d'exécution dépend des réponses, du filtrage et de l'environnement.
-
-### Détection des services : `versions`
-
-```bash
-bash scripts/scan-lab.sh versions
-```
-
-Combine `-sV` et `-p-` : Nmap tente de caractériser les services trouvés sur les ports TCP. Un numéro de port habituel ne garantit pas l'identité du service, et les versions affichées restent des observations ou des estimations. Par défaut, Nmap peut exclure certains ports de ses sondes de version (notamment TCP 9100) même si le scan de ports les couvre.
-
-### Vérification ciblée : `verify`
-
-```bash
-bash scripts/scan-lab.sh verify
-```
-
-Combine `-Pn` et `-p 22,80,443` : Nmap tente les contrôles sur ces trois ports sans utiliser sa phase habituelle de découverte préalable. Le résultat doit être croisé avec d'autres observations : **`-Pn` n'est pas une preuve que la machine est active**.
-
-### Estimation de l'OS : `os`
-
-```bash
-bash scripts/scan-lab.sh os
-```
-
-Utilise `-O`. La détection repose sur les caractéristiques des réponses et dépend des ports et de la topologie. Consigner les hypothèses et leur degré de confiance, sans convertir une estimation en identification certaine. Le script invoque `sudo` si besoin.
-
-### UDP ciblé : `udp`
-
-```bash
-bash scripts/scan-lab.sh udp
-```
-
-Utilise `-sU` et `-p 53,67,137,161` sur les cinq adresses. Les ports sélectionnés sont historiquement associés à DNS, DHCP, NetBIOS et SNMP, mais **la présence d'un numéro de port ne prouve pas qu'un de ces services fonctionne réellement**. Les réponses UDP sont souvent moins concluantes que celles d'un scan TCP.
-
-<div align="center">
-<img src="assets/tcp-udp.svg" width="94%" alt="Schéma comparatif abstrait : échange bidirectionnel TCP et incertitude de réponse UDP, sans données réelles" />
-<sub>Schéma conceptuel des échanges, simplifié à des fins pédagogiques.</sub>
-</div>
-
-## <img src="assets/sections/08.svg" width="32" height="32" alt="Section 08" /> 08 / Comprendre les états Nmap
-
-Nmap décrit **ce qu'il observe depuis sa position réseau**. Les états ne sont pas des propriétés permanentes des ports : firewall, routage, délai, protocole ou méthode de scan peuvent influer sur la conclusion.
-
-| État | Interprétation correcte | Erreur à éviter |
+| Échéance | Travail attendu | Nature |
 | :--- | :--- | :--- |
-| `open` | Un service semble accepter les connexions ou datagrammes correspondants | Supposer que le service est sûr ou authentifié |
-| `closed` | Le port répond, mais aucun service ne semble écouter | En déduire que tout l'hôte est inutilisable |
-| `filtered` | Le filtrage ou une absence de réponse empêche de déterminer l'ouverture | Le présenter comme un port fermé |
-| `unfiltered` | Port accessible, mais état ouvert/fermé indéterminé pour ce type de scan | Le confondre avec `open` |
-| `open|filtered` | Nmap ne distingue pas ouvert de filtré, fréquent en UDP | L'annoncer comme ouvert |
-| `closed|filtered` | Nmap ne distingue pas fermé de filtré, dans certains scans spécifiques | L'annoncer comme définitivement fermé |
+| **Fin de séance 2** | Infrastructure de la succursale validée par l'enseignant | Par équipe |
+| **Fin de séance 5** | Rapport d'audit, selon le template FiduVennes | Par équipe |
+| **Fin de séance 8** | Concept de sécurité et démonstration | Par équipe |
+| **Chaque séance** | Journal de travail avec date, tâches, problèmes et solutions | Individuel |
+| **Séance 8** | Journal individuel et registre des demandes IA | Remise finale selon le cahier des charges |
 
-Pour les services : distinguer le **nom supposé par le port**, le **résultat de détection `-sV`** et la **preuve manuelle**. Pour les OS : indiquer explicitement le caractère estimé de la détection.
+**Les templates FiduVennes de rapport, de concept et de registre IA ne sont pas présents dans le dépôt audité.** Ils ne sont pas reconstitués ici. Le statut des étapes reste à renseigner par l'équipe et à faire valider par l'enseignant.
 
-Voir [Port Scanning Basics](https://nmap.org/book/man-port-scanning-basics.html) et [Service and Version Detection](https://nmap.org/book/man-version-detection.html) dans la documentation officielle.
+## <img src="assets/sections/10.svg" width="32" height="32" alt="Section 10" /> 10 / Journal de travail et traçabilité
 
-## <img src="assets/sections/09.svg" width="32" height="32" alt="Section 09" /> 09 / Exports et traçabilité
+Chaque personne doit tenir son **journal individuel**, mis à jour à chaque séance. Le cahier des charges demande au minimum : date, tâches effectuées, problèmes rencontrés et solutions mises en œuvre.
 
-Le script génère ses sorties dans `results/nmap/` en utilisant l'option Nmap `-oA` :
+Pour faciliter la vérification sans inventer les observations, l'équipe peut organiser ses notes autour des questions suivantes :
 
-| Extension | Format | Usage conseillé |
-| :---: | :--- | :--- |
-| `.nmap` | Sortie textuelle normale | Lecture et citation humaine |
-| `.xml` | Résultat XML structuré | Analyse automatique éventuelle |
-| `.gnmap` | Ancien format grepable | Recherche textuelle simple, en connaissant ses limites |
+- Quel était l'objectif de la séance et quel document de référence a été utilisé ?
+- Qu'a-t-on réellement réalisé et vérifié ?
+- Quel problème a été rencontré, et comment a-t-il été traité ?
+- Quelles décisions nécessitent l'accord de l'enseignant-client ?
+- Quelle preuve, non sensible et autorisée à être conservée, permet de retracer l'étape ?
 
-Le nom de base suit le modèle `AAAAMMJJ-HHMMSS-mode-cible`. Le mode `discover` produit un groupe global nommé `hosts`. Les autres modes produisent un groupe par IP dont le suffixe est le dernier octet (`10`, `11`, `12`, `13`, `14`).
+Le format est libre. Les journaux sont contrôlés à chaque validation et rendus en séance 8. Ce README propose seulement une méthode de préparation, **pas un journal individuel généré**.
 
-Les preuves doivent être reliées à la date, au contexte réseau, à la commande exécutée et à une conclusion précise. **Ne pas réécrire le contenu d'un export brut pour faire correspondre un résultat à une hypothèse.**
-
-<div align="center">
-<img src="assets/evidence.svg" width="94%" alt="Illustration de trois étapes : exports bruts Nmap, inventaire et rapport, sans données de scan" />
-<sub>De la preuve brute à une documentation interprétée. Schéma original.</sub>
-</div>
-
-**Attention aux collisions de noms :** deux lancements du même mode au cours de la même seconde peuvent produire les mêmes chemins. Le script ne met pas en place une protection contre l'écrasement. Des exports générés avec `sudo` peuvent également appartenir à root.
-
-## <img src="assets/sections/10.svg" width="32" height="32" alt="Section 10" /> 10 / Vérifications complémentaires
-
-Le fichier [`docs/commandes.md`](docs/commandes.md) fournit un aide-mémoire pour la découverte, les ports TCP, les versions et les contrôles ciblés. Il contient des exemples avec `nc` et `curl`, à n'utiliser **qu'après observation d'un service correspondant sur une cible autorisée**.
-
-Une démarche reproductible est la suivante :
-
-1. Noter l'IP et le port observé dans un export Nmap.
-2. Identifier l'hypothèse : protocole, service, version ou contenu attendu.
-3. Choisir une commande de vérification autorisée et adaptée au service observé.
-4. Conserver la commande, la date et la sortie non sensible.
-5. Noter le résultat **et ses limites**, même s'il ne confirme pas l'hypothèse.
-
-Pour le code `LAB{...}`, ne consigner que le contenu effectivement trouvé et la méthode qui l'a révélé. Il ne faut ni inventer la chaîne ni prétendre qu'elle se trouve dans un service non vérifié.
-
-> [!NOTE]
-> Dans `docs/commandes.md`, les ports `12345` et `8080` sont des **exemples de syntaxe**. Ils ne constituent pas des découvertes du laboratoire.
-
-## <img src="assets/sections/11.svg" width="32" height="32" alt="Section 11" /> 11 / Documents et livrables
-
-Le dépôt prévoit un travail de restitution distinct pour éviter de mélanger mesures, hypothèses et recommandations.
-
-### Inventaire réseau
-
-[`docs/inventaire.md`](docs/inventaire.md) fournit une ligne par adresse cible pour noter la réponse à `-sn`, la MAC, le fabricant éventuel, l'OS estimé, le rôle probable et les preuves. Une table supplémentaire permet de documenter chaque port TCP ou UDP observé, son état et le service identifié.
-
-### Réponses aux exercices
-
-[`docs/reponses.md`](docs/reponses.md) est structuré autour de la préparation, de la découverte, des ports TCP, des services et OS, de l'enquête complémentaire, de l'UDP et de la réflexion finale. Il faut conserver le lien entre chaque réponse et ses preuves.
-
-### Rapport de sécurité
-
-[`docs/rapport.md`](docs/rapport.md) prévoit une synthèse et **trois constats priorisés**. Pour chaque constat, documenter la machine, l'observation factuelle, le fichier de preuve, le risque plausible, la gravité justifiée, la recommandation et la priorité.
-
-### Checklist avant remise
-
-- [ ] Les cinq adresses du périmètre sont documentées, y compris celles ne répondant pas.
-- [ ] Les différences entre scan standard et scan TCP complet sont expliquées.
-- [ ] Les services, versions et OS sont identifiés avec leurs incertitudes.
-- [ ] Les résultats UDP sont interprétés sans confondre `open|filtered` et `open`.
-- [ ] Les vérifications manuelles autorisées sont tracées.
-- [ ] Le code éventuel `LAB{...}` dispose d'une preuve et d'une méthode.
-- [ ] Trois constats de sécurité reposent sur des observations concrètes.
-- [ ] Les fichiers destinés à GitHub ont été relus pour éviter toute fuite d'information.
-
-<p align="center"><img src="assets/divider.svg" width="85%" alt="Séparateur des livrables" /></p>
-
-## <img src="assets/sections/12.svg" width="32" height="32" alt="Section 12" /> 12 / Architecture et fichiers
-
-L'architecture actuelle reste volontairement simple : **un lanceur de commandes Nmap, des exports et des documents à compléter**. Le projet ne contient pas de service serveur, base de données, dashboard ni conteneur.
-
-```mermaid
-flowchart TD
-    A["Périmètre approuvé : cinq IP"] --> B["scripts/scan-lab.sh"]
-    B --> C["Commandes Nmap fixes"]
-    C --> D["results/nmap : .nmap, .xml, .gnmap"]
-    D --> E["Vérification et interprétation manuelles"]
-    E --> F["docs/inventaire.md"]
-    E --> G["docs/reponses.md"]
-    E --> H["docs/rapport.md"]
-    E --> I["results/preuves : pièces complémentaires"]
-```
-
-**Arborescence prévue après ajout des assets de ce README.** Les cinq SVG historiques (`banner.svg`, `topology.svg`, `icon-host.svg`, `icon-evidence.svg` et `footer.svg`) existent déjà dans le dépôt. Le nouveau pack remplace `footer.svg` et ajoute les autres fichiers illustrés ci-dessous ; aucune suppression de fichiers existants n'est nécessaire.
-
-```text
-NetRecon-Lab/
-├── .editorconfig
-├── .gitignore
-├── LICENSE
-├── README.md
-├── assets/
-│   ├── banner.svg
-│   ├── divider.svg
-│   ├── evidence.svg
-│   ├── footer.svg
-│   ├── header-wide.svg
-│   ├── icon-evidence.svg
-│   ├── icon-host.svg
-│   ├── scope-topology.svg
-│   ├── tcp-udp.svg
-│   ├── topology.svg
-│   ├── workflow.svg
-│   └── sections/
-│       ├── 01.svg ... 08.svg
-│       └── 09.svg ... 16.svg
-├── docs/
-│   ├── commandes.md
-│   ├── inventaire.md
-│   ├── rapport.md
-│   └── reponses.md
-├── results/
-│   ├── nmap/
-│   │   └── .gitkeep
-│   └── preuves/
-│       └── .gitkeep
-└── scripts/
-    └── scan-lab.sh
-```
-
-Les dossiers de résultats ne contiennent que des `.gitkeep` dans la version auditée. Le README et les nouveaux SVG n'ajoutent aucune fonctionnalité de scan.
-
-## <img src="assets/sections/13.svg" width="32" height="32" alt="Section 13" /> 13 / Tests et contrôles sans trafic
-
-Le dépôt ne comprend actuellement ni suite de tests automatisés ni workflow `.github/workflows`. Les contrôles suivants peuvent être lancés localement **sans scanner les cibles** :
-
-```bash
-# Vérifier la syntaxe du script
-bash -n scripts/scan-lab.sh
-
-# Vérifier la construction des commandes, sans exécuter Nmap
-bash scripts/scan-lab.sh discover --dry-run
-bash scripts/scan-lab.sh versions --dry-run
-bash scripts/scan-lab.sh os --dry-run
-bash scripts/scan-lab.sh udp --dry-run
-```
-
-Vérifier visuellement que les seules IP apparaissant dans les lignes produites vont de `10.99.0.10` à `10.99.0.14`. Ces contrôles ne prouvent pas que le laboratoire est joignable, que les résultats Nmap seront corrects ou que les permissions sont suffisantes.
-
-Les scripts n'ont pas été présentés comme ayant été testés sur les machines du cours.
-
-## <img src="assets/sections/14.svg" width="32" height="32" alt="Section 14" /> 14 / Sécurité et confidentialité
+## <img src="assets/sections/11.svg" width="32" height="32" alt="Section 11" /> 11 / Usage de l'IA : AIAS niveau 2
 
 > [!WARNING]
-> **Le dépôt GitHub est public**, alors que le `.gitignore` actuel n'exclut pas les fichiers Nmap générés. La présence d'un dossier `results/` ne signifie pas que ses futurs contenus peuvent être publiés.
+> **L'IA est autorisée uniquement pour la préparation** : recherche d'informations, exploration de pistes, idées et structuration d'un plan. La réalisation reste celle des élèves. **La configuration des machines, le rapport d'audit et le concept de sécurité remis comme livrables doivent être produits par l'équipe sans contenu rédigé ou généré par l'IA.**
 
-Les résultats peuvent révéler des adresses IP, adresses MAC, fabricants, bannières de service, informations de version, noms d'hôtes ou indices sur l'architecture du laboratoire. Avant toute publication, vérifier **l'autorisation de diffusion** et supprimer ou anonymiser les informations sensibles dans les documents destinés au public, sans falsifier les preuves originales conservées dans l'environnement autorisé.
+Chaque recours à l'IA doit être consigné dans le **registre des demandes IA fourni par FiduVennes** : demande formulée, outil utilisé et utilisation effective du résultat. Le cahier des charges précise qu'un usage non consigné peut empêcher la validation du travail.
 
-**Bonnes pratiques adaptées à ce projet :**
+La préparation de ce README avec une IA constitue donc **un recours à déclarer** si ce travail est utilisé dans le cadre du projet. Le présent document est un support de préparation, pas un substitut aux productions évaluées.
 
-- Confirmer l'autorisation et la portée du scan avant de lancer le script.
-- Ne jamais élargir le tableau des cibles sans nouvelle autorisation.
-- Ne pas employer ce laboratoire pour du brute force ou de l'exploitation.
-- Éviter tout commit de mots de passe, tokens, clés privées ou données personnelles.
-- Conserver une copie brute datée des preuves dans un emplacement approprié et restreint.
-- Revoir les fichiers exportés avant tout partage public.
-- Ne pas redistribuer les supports de cours originaux sans permission.
+## <img src="assets/sections/12.svg" width="32" height="32" alt="Section 12" /> 12 / Contenu réel du dépôt
 
-Le script limite les cibles **par construction**, mais n'est pas un mécanisme d'autorisation du réseau. L'utilisateur reste responsable de l'environnement d'exécution et des permissions applicables.
+Le dépôt héberge encore les éléments de l'exercice Nmap précédent :
 
-## <img src="assets/sections/15.svg" width="32" height="32" alt="Section 15" /> 15 / Limites et pistes de développement
+| Chemin existant | État constaté |
+| :--- | :--- |
+| [`scripts/scan-lab.sh`](scripts/scan-lab.sh) | Script Bash de sept modes, cibles héritées `10.99.0.10-14` |
+| [`docs/commandes.md`](docs/commandes.md) | Exemples de commandes pour l'ancien périmètre |
+| [`docs/inventaire.md`](docs/inventaire.md) | Modèle d'inventaire du précédent laboratoire |
+| [`docs/reponses.md`](docs/reponses.md) | Modèle des réponses du précédent exercice |
+| [`docs/rapport.md`](docs/rapport.md) | Modèle de rapport précédent, **pas** le template FiduVennes reçu par l'équipe |
+| `results/nmap/` et `results/preuves/` | Répertoires contenant seulement des `.gitkeep` |
+| `assets/` | Illustrations et icônes du README |
+| [`LICENSE`](LICENSE) | Licence MIT, copyright 2026 Rufus |
 
-Le périmètre actuel est celui d'un **support pédagogique**, pas d'une solution d'audit autonome. Plusieurs limitations sont connues :
+**Le projet FiduVennes n'est pas encore configuré, déployé ou audité dans ce dépôt.** Les quatre sites et les services évoqués ci-dessus sont des exigences du cahier des charges, pas des composants attestés dans le code.
 
-| Domaine | État actuel | Amélioration envisageable |
-| :--- | :--- | :--- |
-| Cibles | Cinq IP codées en dur | Garder les limites explicites et documentées |
-| Résultats | Exports non fournis | Compléter les preuves dans le réseau autorisé |
-| Synthèse | Documentation manuelle | Ajouter un outil local de lecture XML, sans scan additionnel |
-| Exports | Noms datés à la seconde | Éviter les collisions, sans écraser les preuves |
-| Validation | Aucun test automatisé | Ajouter des tests Bash hors réseau |
-| Permissions | `sudo` selon le mode | Documenter les propriétaires des fichiers générés |
-| Publication | Dépôt public et exports non ignorés | Définir une politique de conservation et de partage |
+## <img src="assets/sections/13.svg" width="32" height="32" alt="Section 13" /> 13 / Ancien script Nmap : incompatibilité de périmètre
 
-Ces éléments sont des **pistes**, pas des fonctionnalités disponibles. Toute évolution doit préserver la séparation entre observation factuelle, interprétation et preuve.
+Le script existant **ne doit pas être utilisé tel quel sur FiduVennes**. Il contient explicitement :
 
-## <img src="assets/sections/16.svg" width="32" height="32" alt="Section 16" /> 16 / Licence, contribution et crédits
+```text
+10.99.0.10
+10.99.0.11
+10.99.0.12
+10.99.0.13
+10.99.0.14
+```
 
-### Licence
+Le cahier des charges FiduVennes décrit au contraire les LAN `10.30.11.0/24`, `10.30.14.0/24`, `10.30.18.0/24` et `10.30.10.0/24`. **Aucune de ces plages ne peut être considérée comme un périmètre de scan autorisé dans son intégralité.** L'autorisation écrite, la succursale attribuée et le guide d'audit font foi.
 
-Le dépôt est sous licence **[MIT](LICENSE)**, avec la mention `Copyright (c) 2026 Rufus`. Cette licence couvre les éléments dont le titulaire détient les droits. Elle n'attribue aucun droit supplémentaire sur Nmap, Kali Linux ni sur les documents pédagogiques d'origine.
+Le script accepte toujours `--dry-run`, qui permet d'inspecter les commandes **sans trafic réseau** :
 
-### Contribution
+```bash
+bash scripts/scan-lab.sh discover --dry-run
+```
 
-Les corrections de documentation et les propositions reproductibles peuvent être discutées dans les [issues du dépôt](https://github.com/RufusTheDwarf/NetRecon-Lab/issues). Ne pas joindre de captures ou exports sensibles. Les résultats personnels de l'exercice doivent rester attribuables à leur environnement et leurs preuves.
+Cette commande sert uniquement à constater les cibles codées en dur. **Ne pas lancer les modes actifs** avant de disposer du nouveau périmètre exact, des autorisations et d'une adaptation réalisée puis vérifiée par l'équipe. Les versions minimales des outils et les configurations de la nouvelle infrastructure ne sont pas spécifiées par le README existant.
 
-### Remerciements et sources
+## <img src="assets/sections/14.svg" width="32" height="32" alt="Section 14" /> 14 / Confidentialité et contrôle du périmètre
 
-- **[RufusTheDwarf](https://github.com/RufusTheDwarf)** : auteur du dépôt ; le fichier `LICENSE` crédite **Rufus**.
-- **[Nmap Project](https://nmap.org/)** : outil utilisé dans le script. Références officielles : [manuel](https://nmap.org/book/man.html), [découverte](https://nmap.org/book/man-host-discovery.html), [états des ports](https://nmap.org/book/man-port-scanning-basics.html), [versions](https://nmap.org/book/man-version-detection.html) et [exports](https://nmap.org/book/man-output.html).
-- **[Kali Linux](https://www.kali.org/)** : distribution utilisée dans l'environnement pédagogique décrit.
-- **[GNU Bash](https://www.gnu.org/software/bash/manual/)** et **[Git](https://git-scm.com/docs/git-clone)** : exécution des scripts et gestion du dépôt.
-- **Supports pédagogiques mentionnés dans le README d'origine** : `E-184-ALL-UtiliserNmap.md`, `S-184-Semaine_1.pdf` et `S-184-Semaine_2.pdf`. Ces supports ne sont pas stockés dans ce dépôt et ne sont pas reproduits ici.
-- **[Shields.io](https://shields.io/)** : badges de métadonnées ; les logos présents dans certains badges suivent les marques correspondantes.
-- **[Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)** : animation de texte en haut du README.
-- **Illustrations locales** : header radar, réseau conceptuel, workflow, comparaison TCP/UDP, preuves, séparateurs, 16 icônes numérotées et footer créés pour cette version du README. Aucun visuel ne représente un résultat réel du laboratoire et aucune police ni ressource externe n'est incluse dans les SVG locaux.
+- **Succursale attribuée seulement** : ni réseau de l'école, ni autre blade, ni autre équipe.
+- **Autorisation écrite** et durée du projet : les tests ne sont permis que dans ces limites.
+- **Étape 1** : documents confidentiels non partagés, configuration fidèlement reconstruite.
+- **Étape 2** : tests non destructifs, aucune suppression, modification, rotation de mots de passe ou déni de service.
+- **Étape 3** : corrections après validation, avec maintien du fonctionnement métier.
+- **Dépôt public** : aucune publication de comptes, mots de passe, adresses WAN attribuées par l'enseignant, exports de scan sensibles ou documents confidentiels.
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="Dernier séparateur avant le pied de page" /></p>
+Le `.gitignore` existant ne masque pas les exports Nmap. L'autorisation de réaliser des tests **n'est pas une autorisation de publier leurs résultats**. Prévoir une revue avant toute mise en ligne.
+
+## <img src="assets/sections/15.svg" width="32" height="32" alt="Section 15" /> 15 / Informations encore nécessaires
+
+Le cahier des charges commun fixe le cadre du projet, mais **ne permet pas à lui seul de réaliser les étapes**. Les éléments suivants doivent venir de l'enseignant ou de l'équipe :
+
+- Composition de l'équipe et succursale qui lui est attribuée.
+- Document technique confidentiel de la succursale pour l'étape 1 et ses fichiers de données.
+- Adresse du côté WAN du pare-feu et éléments d'accès transmis par le client.
+- Autorisation écrite et guide de l'étape 2, notamment le périmètre de test exact.
+- Guide et comptes administrateur de l'étape 3.
+- Templates FiduVennes du rapport d'audit, du concept de sécurité et du registre IA.
+- Observations réelles, validations de l'enseignant et dates des séances.
+
+Aucun de ces éléments manquants n'est deviné ni déclaré comme déjà disponible dans GitHub.
+
+## <img src="assets/sections/16.svg" width="32" height="32" alt="Section 16" /> 16 / Licence, références et remerciements
+
+**Licence du dépôt :** [MIT](LICENSE), `Copyright (c) 2026 Rufus`. La licence ne s'étend pas automatiquement aux supports pédagogiques, marques ou documents confidentiels de tiers.
+
+**Crédits et références :**
+
+- **[RufusTheDwarf](https://github.com/RufusTheDwarf)** : propriétaire et auteur du dépôt ; la licence crédite Rufus.
+- **ETML, module 184**, et **FiduVennes SA**, scénario pédagogique du cahier des charges transmis. Le document reste soumis aux règles de diffusion du cours.
+- **[Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview)** : virtualisation demandée à l'étape 1.
+- **[OPNsense](https://opnsense.org/)** : pare-feu WAN/LAN demandé à l'étape 1, documentation des [interfaces](https://docs.opnsense.org/manual/interfaces.html).
+- **[Kali Linux](https://www.kali.org/)** : poste technique prévu dans chaque succursale.
+- **[Nmap Project](https://nmap.org/)** : outil de reconnaissance du script initial et [documentation officielle](https://nmap.org/book/man.html).
+- **[GNU Bash](https://www.gnu.org/software/bash/manual/)** et **[Git](https://git-scm.com/docs/git-clone)** : outils associés au dépôt.
+- **[Capsule Render](https://github.com/kyechan99/capsule-render)** : grand header animé généré par son service, sans fichier `header-wide.svg` local.
+- **[Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)** : sous-titre animé.
+- **[Shields.io](https://shields.io/)** : badges. Les marques affichées dans les badges restent la propriété de leurs titulaires.
+- **Illustrations** : trois schémas SVG originaux et les icônes de sections conservées dans le dépôt, utilisés comme schémas conceptuels et non comme captures réelles.
+- **Références de l'ancien exercice** : `E-184-ALL-UtiliserNmap.md`, `S-184-Semaine_1.pdf`, `S-184-Semaine_2.pdf`, mentionnés dans le README précédent mais non redistribués ici.
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="Séparateur de fin vert et cyan" /></p>
 
 <div align="center">
 
-## OBSERVE // VERIFY // DOCUMENT
+### BUILD // AUDIT // SECURE
 
-**Ce qui compte n'est pas seulement ce que le scan affiche, mais ce que les preuves permettent réellement de conclure.**
+**Infrastructure vérifiée. Audit autorisé. Sécurisation démontrée.**
 
-<p>
-<a href="https://github.com/RufusTheDwarf"><img src="https://img.shields.io/badge/CREATOR-RufusTheDwarf-126B54?style=flat&logo=github&logoColor=white" height="21" alt="Créateur RufusTheDwarf" /></a>
-<a href="https://github.com/RufusTheDwarf/NetRecon-Lab"><img src="https://img.shields.io/badge/REPOSITORY-NetRecon_Lab-16799A?style=flat&logo=git&logoColor=white" height="21" alt="Dépôt NetRecon Lab" /></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-17866C?style=flat" height="21" alt="Licence MIT" /></a>
-<a href="https://nmap.org/"><img src="https://img.shields.io/badge/REFERENCE-NMAP-176783?style=flat" height="21" alt="Nmap Project" /></a>
-</p>
+[![Creator](https://img.shields.io/badge/CREATOR-RufusTheDwarf-126B54?style=flat&logo=github&logoColor=white)](https://github.com/RufusTheDwarf)
+[![Repository](https://img.shields.io/badge/REPOSITORY-NetRecon_Lab-16799A?style=flat&logo=git&logoColor=white)](https://github.com/RufusTheDwarf/NetRecon-Lab)
+[![License](https://img.shields.io/badge/LICENSE-MIT-17866C?style=flat)](LICENSE)
 
-**Projet et documentation : [RufusTheDwarf](https://github.com/RufusTheDwarf)**
+[**Dépôt GitHub**](https://github.com/RufusTheDwarf/NetRecon-Lab) · [**Signaler une erreur**](https://github.com/RufusTheDwarf/NetRecon-Lab/issues) · [**Licence**](LICENSE)
 
-[**Voir le dépôt**](https://github.com/RufusTheDwarf/NetRecon-Lab) · [**Consulter les sources**](https://github.com/RufusTheDwarf/NetRecon-Lab/tree/main) · [**Signaler une erreur**](https://github.com/RufusTheDwarf/NetRecon-Lab/issues) · [**Lire la licence**](LICENSE)
+<img src="assets/footer.svg" width="100%" alt="Footer radar du projet NetRecon Lab, conservé depuis la précédente version" />
 
-<img src="assets/footer.svg" width="100%" alt="Footer centré avec radar stylisé, lignes de signal symétriques et cinq points lumineux" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04110B,22:0D2E27,48:116B58,73:19B98F,100:A4E85E&height=115&section=footer&animation=fadeIn" width="100%" alt="Vague de fin animée Capsule Render, dégradé vert NetRecon Lab" />
 
-<sub>NETRECON LAB // MODULE 184 // 2026 // MIT // RUFUSTHEDWARF</sub>
+<sub>NETRECON LAB // FIDUVENNES // MODULE 184 // 2026 // RUFUSTHEDWARF</sub>
 
 </div>
