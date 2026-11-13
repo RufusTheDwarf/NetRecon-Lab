@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<title id="title">Section 08</title><desc id="desc">Pastille ronde avec le numéro 08 dessiné en traits fins.</desc>
+<circle cx="32" cy="32" r="29" fill="#06110E" stroke="#4BD9FF" stroke-width="1.5"/>
+<circle cx="32" cy="32" r="23" fill="none" stroke="#426C5F" stroke-width=".8" stroke-dasharray="2 5"/>
+<g stroke="#4BD9FF" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 24L29 24"/><path d="M29 24L29 31"/><path d="M29 31L29 39"/><path d="M20 31L20 39"/><path d="M20 24L20 31"/><path d="M20 39L29 39"/><path d="M35 24L44 24"/><path d="M44 24L44 31"/><path d="M44 31L44 39"/><path d="M35 39L44 39"/><path d="M35 31L35 39"/><path d="M35 24L35 31"/><path d="M35 31L44 31"/></g>
+<path d="M13 49h38" stroke="#4BD9FF" stroke-width=".8" stroke-linecap="round" opacity=".75"/>
+</svg>

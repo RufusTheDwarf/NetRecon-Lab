@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Cycle de travail et de preuve</title><desc id="desc">Cinq étapes schématiques : autoriser, découvrir, enregistrer, analyser, documenter. Le visuel ne contient aucune donnée réelle de scan.</desc>
+<rect width="1200" height="280" rx="22" fill="#06110E"/>
+<path d="M130 136h940" fill="none" stroke="#4BD9FF" stroke-width="3" stroke-dasharray="7 12" opacity=".7"/>
+<g stroke="#27E5A6" fill="#103127" stroke-width="2.5"><circle cx="140" cy="136" r="63"/><circle cx="370" cy="136" r="63"/><circle cx="600" cy="136" r="63"/><circle cx="830" cy="136" r="63"/><circle cx="1060" cy="136" r="63"/></g>
+<g fill="none" stroke="#4BD9FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M116 140l16 16 34-39"/>
+<path d="M348 120a28 28 0 1 1 0 34M349 136h34M370 116v40"/>
+<path d="M578 111h44v52h-44zM586 124h27M586 137h27M586 150h20"/>
+<path d="M809 115l19 19-19 19M841 115l-19 19 19 19"/>
+<path d="M1035 116h41v45h-41zM1042 128h27M1042 139h27M1042 150h16"/>
+</g>
+<g fill="#F5BD62"><circle cx="140" cy="60" r="5"/><circle cx="370" cy="60" r="5"/><circle cx="600" cy="60" r="5"/><circle cx="830" cy="60" r="5"/><circle cx="1060" cy="60" r="5"/></g>
+<path d="M205 136h102M435 136h102M665 136h102M895 136h102" fill="none" stroke="#F5BD62" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 390" role="img" aria-labelledby="title desc">
+<title id="title">Périmètre réseau autorisé</title>
+<desc id="desc">Cinq hôtes abstraits représentent les adresses autorisées de 10.99.0.10 à 10.99.0.14, connectées à un poste d'observation. Aucun statut d'hôte n'est présumé.</desc>
+<defs><pattern id="mesh" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#3B795D" stroke-opacity=".22"/></pattern></defs>
+<rect width="1160" height="390" rx="24" fill="#06110E"/><rect width="1160" height="390" rx="24" fill="url(#mesh)"/>
+<rect x="60" y="135" width="300" height="130" rx="18" fill="#103127" stroke="#4BD9FF" stroke-width="2"/>
+<rect x="100" y="170" width="98" height="62" rx="7" fill="#06110E" stroke="#27E5A6" stroke-width="2"/>
+<path d="M114 189l12 12-12 12M137 214h30" fill="none" stroke="#27E5A6" stroke-width="4" stroke-linecap="round"/>
+<path d="M140 239h55M222 174h95M222 195h76M222 216h83" fill="none" stroke="#4BD9FF" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+<path d="M360 200h140M500 200V56M500 200V334M500 56h87M500 124h87M500 200h87M500 271h87M500 334h87" fill="none" stroke="#4BD9FF" stroke-width="2" stroke-dasharray="6 8"/>
+<circle cx="500" cy="200" r="12" fill="#27E5A6"/>
+<g fill="#103127" stroke="#27E5A6" stroke-width="2"><rect x="587" y="35" width="504" height="43" rx="11"/><rect x="587" y="103" width="504" height="43" rx="11"/><rect x="587" y="179" width="504" height="43" rx="11"/><rect x="587" y="250" width="504" height="43" rx="11"/><rect x="587" y="313" width="504" height="43" rx="11"/></g>
+<g fill="#27E5A6"><circle cx="611" cy="56" r="5"/><circle cx="611" cy="124" r="5"/><circle cx="611" cy="200" r="5"/><circle cx="611" cy="271" r="5"/><circle cx="611" cy="334" r="5"/></g>
+<g stroke="#4BD9FF" stroke-width="5" stroke-linecap="round" opacity=".7"><path d="M637 56h260M637 124h260M637 200h260M637 271h260M637 334h260"/></g>
+<g stroke="#F5BD62" stroke-width="3" stroke-linecap="round"><path d="M944 56h112M944 124h112M944 200h112M944 271h112M944 334h112"/></g>
+</svg>

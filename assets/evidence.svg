@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Preuves, inventaire et rapport</title><desc id="desc">Trois dossiers et documents abstraits représentent les fichiers bruts Nmap, un inventaire de services et un rapport de sécurité, sans aucune donnée de laboratoire.</desc>
+<rect width="1200" height="340" rx="22" fill="#06110E"/>
+<path d="M0 87H1200M0 253H1200" stroke="#27E5A6" stroke-opacity=".2"/>
+<g fill="#103127" stroke="#4BD9FF" stroke-width="2"><rect x="95" y="61" width="273" height="219" rx="15"/><rect x="463" y="61" width="273" height="219" rx="15"/><rect x="831" y="61" width="273" height="219" rx="15"/></g>
+<g fill="none" stroke="#27E5A6" stroke-width="3.5" stroke-linecap="round"><path d="M130 105h160M130 139h184M130 173h124M130 207h172M130 241h110"/><path d="M498 105h190M498 139h149M498 173h174M498 207h121M498 241h160"/><path d="M866 105h174M866 139h145M866 173h160M866 207h172M866 241h112"/></g>
+<g fill="#F5BD62"><circle cx="335" cy="105" r="8"/><circle cx="703" cy="139" r="8"/><circle cx="1071" cy="207" r="8"/></g>
+<path d="M381 170h67m-15-14 15 14-15 14M749 170h67m-15-14 15 14-15 14" fill="none" stroke="#F5BD62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

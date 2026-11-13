@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 32" role="img" aria-labelledby="title desc">
+<title id="title">Séparateur signal NetRecon</title><desc id="desc">Ligne de séparation fine, motif d'onde central vert et cyan.</desc>
+<path d="M8 16h472l18-9 20 18 21-20 23 22 20-11h610" fill="none" stroke="#27E5A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 23h445M610 23h582" stroke="#4BD9FF" stroke-width=".8" opacity=".45"/>
+<circle cx="580" cy="16" r="3" fill="#F5BD62"/>
+</svg>

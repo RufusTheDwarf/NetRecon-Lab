@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+<title id="title">Bannière panoramique NetRecon Lab</title>
+<desc id="desc">Composition abstraite cyber-réseau : grande console à gauche, radar circulaire à droite, faisceaux de scan, cinq nœuds et maillage technique. Illustration originale, sans résultats réseau réels.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06110E"/><stop offset=".6" stop-color="#103127"/><stop offset="1" stop-color="#071B19"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#27E5A6"/><stop offset="1" stop-color="#4BD9FF"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#27E5A6" stop-opacity=".22"/><stop offset="1" stop-color="#27E5A6" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#3E765E" stroke-opacity=".25" stroke-width="1"/></pattern>
+</defs>
+<rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+<rect width="1400" height="420" rx="28" fill="url(#grid)"/>
+<path d="M0 58H1400M0 362H1400" stroke="#27E5A6" stroke-opacity=".45"/>
+<path d="M26 29h84M26 29v44M1374 29h-84M1374 29v44M26 391h84M26 391v-44M1374 391h-84M1374 391v-44" fill="none" stroke="#27E5A6" stroke-width="3" stroke-linecap="round"/>
+<rect x="74" y="88" width="570" height="252" rx="18" fill="#06110E" stroke="#4BD9FF" stroke-opacity=".75" stroke-width="2"/>
+<rect x="74" y="88" width="570" height="43" rx="18" fill="#173D31"/>
+<path d="M74 112v19H644v-19" fill="#173D31"/>
+<circle cx="104" cy="109" r="6" fill="#27E5A6"/><circle cx="128" cy="109" r="6" fill="#F5BD62"/><circle cx="152" cy="109" r="6" fill="#4BD9FF"/>
+<path d="M113 176l22 18-22 18M153 220h62" fill="none" stroke="#27E5A6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M244 176h260M244 199h209M244 222h276M112 263h465M112 293h384" stroke="#4BD9FF" stroke-width="7" stroke-linecap="round" stroke-opacity=".58"/>
+<path d="M113 263h150M113 293h206" stroke="#27E5A6" stroke-width="7" stroke-linecap="round" stroke-opacity=".85"/>
+<rect x="536" y="161" width="64" height="86" rx="8" fill="#173D31" stroke="#27E5A6" stroke-opacity=".7"/>
+<path d="M548 179h40M548 192h29M548 205h35M548 218h21" stroke="#27E5A6" stroke-width="4" stroke-linecap="round"/>
+<circle cx="1043" cy="209" r="196" fill="url(#glow)"/>
+<g fill="none" stroke="#4BD9FF"><circle cx="1043" cy="209" r="155" stroke-opacity=".5" stroke-width="2"/><circle cx="1043" cy="209" r="114" stroke-opacity=".75" stroke-width="2"/><circle cx="1043" cy="209" r="72" stroke-opacity=".7" stroke-width="2"/><circle cx="1043" cy="209" r="35" stroke-opacity=".8" stroke-width="2"/></g>
+<circle cx="1043" cy="209" r="188" fill="none" stroke="#27E5A6" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 12"/>
+<path d="M1043 22V397M857 209h375" stroke="#4BD9FF" stroke-opacity=".35" stroke-width="2"/>
+<path d="M1043 209L1185 71A198 198 0 0 0 1240 209Z" fill="#27E5A6" fill-opacity=".14" stroke="#27E5A6" stroke-opacity=".48"/>
+<g stroke="#27E5A6" fill="#06110E" stroke-width="3"><circle cx="987" cy="99" r="10"/><circle cx="1137" cy="163" r="10"/><circle cx="941" cy="254" r="10"/><circle cx="1074" cy="317" r="10"/><circle cx="1195" cy="260" r="10"/></g>
+<g fill="#27E5A6"><circle cx="1043" cy="209" r="8"/><circle cx="987" cy="99" r="3"/><circle cx="1137" cy="163" r="3"/><circle cx="941" cy="254" r="3"/><circle cx="1074" cy="317" r="3"/><circle cx="1195" cy="260" r="3"/></g>
+<path d="M647 209h154l56-59M647 254h117l92 40" fill="none" stroke="#27E5A6" stroke-opacity=".65" stroke-width="2" stroke-dasharray="5 10"/>
+<path d="M102 352h155M260 352h110M374 352h105" stroke="#F5BD62" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+</svg>

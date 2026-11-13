@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">Comparaison conceptuelle TCP et UDP</title>
+<desc id="desc">À gauche, des impulsions bidirectionnelles schématiques pour un échange TCP ; à droite, des paquets UDP à réponse incertaine. Illustration pédagogique sans capture de trafic.</desc>
+<rect width="1200" height="330" rx="22" fill="#06110E"/>
+<path d="M600 24v282" stroke="#4BD9FF" stroke-width="2" stroke-opacity=".45" stroke-dasharray="5 8"/>
+<g stroke="#4BD9FF" stroke-width="2" fill="#103127"><rect x="60" y="90" width="155" height="150" rx="16"/><rect x="385" y="90" width="155" height="150" rx="16"/><rect x="660" y="90" width="155" height="150" rx="16"/><rect x="985" y="90" width="155" height="150" rx="16"/></g>
+<g fill="none" stroke="#27E5A6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M106 153h63M124 177h25"/><path d="M430 153h63M448 177h25"/><path d="M706 153h63M724 177h25"/><path d="M1030 153h63M1048 177h25"/></g>
+<g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M233 141h134l-15-12m15 12-15 12" stroke="#27E5A6"/><path d="M367 193H233l15-12m-15 12 15 12" stroke="#4BD9FF"/><path d="M831 151h135l-15-12m15 12-15 12" stroke="#F5BD62"/><path d="M831 193h135" stroke="#F5BD62" stroke-dasharray="4 13" opacity=".6"/></g>
+<circle cx="898" cy="193" r="10" fill="none" stroke="#F5BD62" stroke-width="3"/>
+<path d="M898 182v-13" stroke="#F5BD62" stroke-width="2"/><circle cx="898" cy="193" r="2" fill="#F5BD62"/>
+<path d="M80 271h440M680 271h440" stroke="#27E5A6" stroke-opacity=".4"/>
+</svg>

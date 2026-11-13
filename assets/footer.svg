@@ -1,8 +1,13 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 90">
-  <title id="title">Pied de page NetRecon Lab</title>
-  <desc id="desc">Trait horizontal ponctué d'un signal réseau géométrique et de cinq points.</desc>
-  <rect width="1200" height="90" rx="18" fill="#0B1220"/>
-  <path d="M40 45h330l18-20 25 40 28-49 32 57 23-28h524" fill="none" stroke="#53E3C2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#8AB9FF"><circle cx="1060" cy="45" r="7"/><circle cx="1085" cy="45" r="7"/><circle cx="1110" cy="45" r="7"/><circle cx="1135" cy="45" r="7"/><circle cx="1160" cy="45" r="7"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 185" role="img" aria-labelledby="title desc">
+<title id="title">Footer NetRecon Lab</title>
+<desc id="desc">Pied de page centré avec radar, point de scan lumineux et circuit symétrique vert et cyan, sans texte ni ressource externe.</desc>
+<defs><linearGradient id="base"><stop stop-color="#06110E"/><stop offset=".5" stop-color="#103127"/><stop offset="1" stop-color="#06110E"/></linearGradient></defs>
+<rect width="1400" height="185" rx="24" fill="url(#base)"/>
+<path d="M24 90h438l36-28 42 57 48-63 40 37h154l40-37 48 63 42-57 36 28h428" stroke="#27E5A6" stroke-width="3" fill="none" stroke-linejoin="round"/>
+<circle cx="700" cy="92" r="65" fill="#06110E" stroke="#4BD9FF" stroke-width="2"/>
+<circle cx="700" cy="92" r="45" fill="none" stroke="#27E5A6" stroke-width="1.5" stroke-dasharray="3 7"/>
+<circle cx="700" cy="92" r="25" fill="none" stroke="#4BD9FF" stroke-width="2"/>
+<circle cx="700" cy="92" r="7" fill="#27E5A6"/>
+<path d="M700 18v34M700 132v35M626 92h33M741 92h33" stroke="#F5BD62" stroke-width="2" stroke-linecap="round"/>
+<g fill="#4BD9FF"><circle cx="86" cy="90" r="5"/><circle cx="111" cy="90" r="5"/><circle cx="136" cy="90" r="5"/><circle cx="1264" cy="90" r="5"/><circle cx="1289" cy="90" r="5"/><circle cx="1314" cy="90" r="5"/></g>
 </svg>
