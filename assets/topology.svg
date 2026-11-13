@@ -1,0 +1,24 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 900 350">
+  <title id="title">Illustration conceptuelle du laboratoire</title>
+  <desc id="desc">Une console abstraite au centre reliée à cinq rectangles représentant des hôtes. Aucun résultat réel de reconnaissance n'est illustré.</desc>
+  <rect width="900" height="350" rx="22" fill="#0B1220"/>
+  <rect x="48" y="104" width="265" height="148" rx="17" fill="#17263D" stroke="#8AB9FF" stroke-width="3"/>
+  <path d="M70 140l22 20-22 20M110 182h74" stroke="#53E3C2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M205 140h70M205 163h50M205 186h60" stroke="#8AB9FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M313 177h112M425 177V42M425 177V308M425 42h89M425 109h89M425 177h89M425 245h89M425 308h89" stroke="#8AB9FF" stroke-width="3" stroke-dasharray="6 8" fill="none"/>
+  <circle cx="425" cy="177" r="13" fill="#53E3C2"/>
+  <g stroke="#53E3C2" stroke-width="3" fill="#17263D">
+    <rect x="514" y="20" width="300" height="45" rx="12"/>
+    <rect x="514" y="87" width="300" height="45" rx="12"/>
+    <rect x="514" y="155" width="300" height="45" rx="12"/>
+    <rect x="514" y="223" width="300" height="45" rx="12"/>
+    <rect x="514" y="286" width="300" height="45" rx="12"/>
+  </g>
+  <g fill="#53E3C2">
+    <circle cx="538" cy="42" r="6"/><circle cx="538" cy="109" r="6"/><circle cx="538" cy="177" r="6"/><circle cx="538" cy="245" r="6"/><circle cx="538" cy="308" r="6"/>
+  </g>
+  <g stroke="#8AB9FF" stroke-width="5" stroke-linecap="round">
+    <path d="M559 42h218M559 109h218M559 177h218M559 245h218M559 308h218"/>
+  </g>
+</svg>
