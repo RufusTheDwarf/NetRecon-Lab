@@ -1,0 +1,33 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 300">
+  <title id="title">NetRecon Lab - bannière</title>
+  <desc id="desc">Visualisation abstraite d'un terminal de scan connecté à cinq équipements réseau.</desc>
+  <rect width="1200" height="300" rx="24" fill="#0B1220"/>
+  <path d="M0 75H1200M0 150H1200M0 225H1200M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300M1000 0V300M1100 0V300" stroke="#17263D" stroke-width="1"/>
+  <rect x="54" y="55" width="444" height="190" rx="18" fill="#17263D" stroke="#8AB9FF" stroke-width="2"/>
+  <circle cx="81" cy="77" r="5" fill="#53E3C2"/>
+  <circle cx="99" cy="77" r="5" fill="#8AB9FF"/>
+  <circle cx="117" cy="77" r="5" fill="#F8FAFC" opacity=".55"/>
+  <path d="M80 126l24 22-24 22M122 173h70" stroke="#53E3C2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M235 120h215M235 147h176M235 174h199" stroke="#8AB9FF" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+  <path d="M498 150h128M626 150l50-90M626 150l50-45M626 150l50 0M626 150l50 45M626 150l50 90" fill="none" stroke="#8AB9FF" stroke-width="3" stroke-dasharray="7 10"/>
+  <circle cx="626" cy="150" r="16" fill="#53E3C2"/>
+  <circle cx="626" cy="150" r="7" fill="#0B1220"/>
+  <g stroke="#53E3C2" stroke-width="3" fill="#17263D">
+    <rect x="676" y="38" width="175" height="44" rx="12"/>
+    <rect x="676" y="84" width="175" height="44" rx="12"/>
+    <rect x="676" y="128" width="175" height="44" rx="12"/>
+    <rect x="676" y="172" width="175" height="44" rx="12"/>
+    <rect x="676" y="218" width="175" height="44" rx="12"/>
+  </g>
+  <g fill="#53E3C2">
+    <circle cx="700" cy="60" r="6"/><circle cx="700" cy="106" r="6"/><circle cx="700" cy="150" r="6"/><circle cx="700" cy="194" r="6"/><circle cx="700" cy="240" r="6"/>
+  </g>
+  <g stroke="#8AB9FF" stroke-width="5" stroke-linecap="round" opacity=".8">
+    <path d="M720 60h104M720 106h104M720 150h104M720 194h104M720 240h104"/>
+  </g>
+  <circle cx="989" cy="150" r="88" fill="none" stroke="#8AB9FF" stroke-width="3" stroke-dasharray="4 10"/>
+  <circle cx="989" cy="150" r="55" fill="none" stroke="#53E3C2" stroke-width="3" opacity=".8"/>
+  <circle cx="989" cy="150" r="18" fill="#53E3C2"/>
+  <path d="M989 37v54M989 209v54M876 150h54M1048 150h54" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+</svg>
