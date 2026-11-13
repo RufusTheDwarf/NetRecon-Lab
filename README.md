@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/header-wide.svg" width="100%" alt="Grande bannière NetRecon Lab : terminal de reconnaissance, grille réseau et radar avec cinq nœuds illustratifs" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:04110B,22:0D2E27,48:116B58,73:19B98F,100:A4E85E&height=270&section=header&text=NETRECON%20LAB&fontSize=59&fontColor=FFFFFF&fontAlignY=34&desc=NETWORK%20RECONNAISSANCE%20%2F%20NMAP%20%2F%20CYBERSECURITY&descSize=15&descAlignY=57&animation=fadeIn" width="100%" alt="NetRecon Lab animated network reconnaissance banner" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=900&color=27E5A6&center=true&vCenter=true&width=820&height=52&lines=Observe+the+network.+Verify+the+evidence.;5+authorized+hosts.+7+scan+modes.;TCP+%2B+UDP.+No+guesswork.;Discover.+Document.+Explain." width="90%" alt="Animated network reconnaissance messages" />
 
 # NETRECON LAB
 
 **MODULE 184 // NETWORK RECONNAISSANCE // DOCUMENTED EVIDENCE**
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=900&color=27E5A6&center=true&vCenter=true&width=820&height=52&lines=Observe+the+network.+Verify+the+evidence.;5+authorized+hosts.+7+scan+modes.;TCP+%2B+UDP.+No+guesswork.;Discover.+Document.+Explain." width="90%" alt="Messages animés : observer, vérifier et documenter les résultats d'un laboratoire Nmap" />
 
 **Reconnaissance réseau encadrée avec Nmap, Bash et Kali Linux.**
 
