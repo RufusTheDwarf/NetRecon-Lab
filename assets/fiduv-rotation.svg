@@ -1,0 +1,42 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 340">
+<title id="title">Rotation des succursales FiduVennes</title>
+<desc id="desc">A construit Morges puis audite Yverdon ; B construit Yverdon puis audite Vevey ; C construit Vevey puis audite Cheseaux ; D construit Cheseaux puis audite Morges.</desc>
+<rect width="1200" height="340" rx="20" fill="#071812"/>
+<g fill="#D4EAE1" font-size="22">
+<text x="90" y="46">ÉQUIPE</text>
+<text x="245" y="46">CONSTRUIRE</text>
+<text x="805" y="46">AUDITER ET SÉCURISER</text>
+</g>
+<g fill="#0D2E27" stroke="#2AB98F" stroke-width="2">
+<rect x="66" y="65" width="103" height="53" rx="13"/>
+<rect x="220" y="65" width="350" height="53" rx="13"/>
+<rect x="650" y="65" width="480" height="53" rx="13"/>
+<rect x="66" y="134" width="103" height="53" rx="13"/>
+<rect x="220" y="134" width="350" height="53" rx="13"/>
+<rect x="650" y="134" width="480" height="53" rx="13"/>
+<rect x="66" y="203" width="103" height="53" rx="13"/>
+<rect x="220" y="203" width="350" height="53" rx="13"/>
+<rect x="650" y="203" width="480" height="53" rx="13"/>
+<rect x="66" y="272" width="103" height="53" rx="13"/>
+<rect x="220" y="272" width="350" height="53" rx="13"/>
+<rect x="650" y="272" width="480" height="53" rx="13"/>
+</g>
+<g fill="#F0FBF7" font-size="26" text-anchor="middle">
+<text x="118" y="102">A</text>
+<text x="118" y="171">B</text>
+<text x="118" y="240">C</text>
+<text x="118" y="309">D</text>
+<text x="395" y="102">Morges</text>
+<text x="395" y="171">Yverdon</text>
+<text x="395" y="240">Vevey</text>
+<text x="395" y="309">Cheseaux</text>
+<text x="890" y="102">Yverdon</text>
+<text x="890" y="171">Vevey</text>
+<text x="890" y="240">Cheseaux</text>
+<text x="890" y="309">Morges</text>
+</g>
+<g stroke="#6CD7F8" stroke-width="3" stroke-linecap="round" fill="none">
+<path d="M584 91h47l-11-10m11 10-11 10M584 160h47l-11-10m11 10-11 10M584 229h47l-11-10m11 10-11 10M584 298h47l-11-10m11 10-11 10"/>
+</g>
+</svg>
