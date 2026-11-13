@@ -1,0 +1,32 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 480">
+<title id="title">Architecture logique type FiduVennes</title>
+<desc id="desc">Blade Proxmox avec bridge WAN vmbr0 et bridge LAN de succursale, pare-feu OPNsense entre interfaces et poste Kali à deux interfaces. Serveurs et secrétariat côté LAN.</desc>
+<rect width="1200" height="480" rx="22" fill="#071812"/>
+<rect x="22" y="35" width="1156" height="406" rx="20" fill="#091E19" stroke="#315449" stroke-width="2"/>
+<text x="48" y="78" fill="#C1D5CC" font-size="25">BLADE / PROXMOX VE (structure attendue)</text>
+<rect x="74" y="118" width="255" height="108" rx="15" fill="#192D3C" stroke="#64B9E4" stroke-width="3"/>
+<text x="202" y="154" fill="#F8FAFC" font-size="25" text-anchor="middle">WAN / vmbr0</text>
+<text x="202" y="192" fill="#A3C6DC" font-size="19" text-anchor="middle">IP donnée par le client</text>
+<rect x="445" y="117" width="320" height="115" rx="15" fill="#29301F" stroke="#D6A45A" stroke-width="3"/>
+<text x="605" y="158" fill="#F8FAFC" font-size="28" text-anchor="middle">OPNsense</text>
+<text x="605" y="190" fill="#E2CEA8" font-size="19" text-anchor="middle">Pare-feu WAN + LAN</text>
+<rect x="891" y="118" width="238" height="108" rx="15" fill="#0D2E27" stroke="#27E5A6" stroke-width="3"/>
+<text x="1010" y="151" fill="#F8FAFC" font-size="24" text-anchor="middle">Bridge LAN</text>
+<text x="1010" y="184" fill="#ADEFD3" font-size="18" text-anchor="middle">vmbrCODEPOSTAL</text>
+<g stroke-width="5" stroke-linecap="round" fill="none">
+<path d="M330 171H445" stroke="#64B9E4"/>
+<path d="M765 171H891" stroke="#27E5A6"/>
+</g>
+<rect x="63" y="300" width="460" height="104" rx="15" fill="#132D29" stroke="#64B9E4" stroke-width="2"/>
+<text x="293" y="338" fill="#F8FAFC" font-size="23" text-anchor="middle">Kali / CLIENT-xx-02</text>
+<text x="293" y="374" fill="#B9D6CC" font-size="19" text-anchor="middle">2 interfaces : WAN + LAN</text>
+<rect x="696" y="300" width="440" height="104" rx="15" fill="#132D29" stroke="#27E5A6" stroke-width="2"/>
+<text x="916" y="338" fill="#F8FAFC" font-size="22" text-anchor="middle">Serveurs et secrétariat</text>
+<text x="916" y="374" fill="#B9D6CC" font-size="19" text-anchor="middle">Selon document confidentiel</text>
+<g stroke-width="3" stroke-dasharray="8 8" fill="none">
+<path d="M203 226V269H175V300" stroke="#64B9E4"/>
+<path d="M1010 226v44H412v30" stroke="#27E5A6"/>
+<path d="M1010 226v74" stroke="#27E5A6"/>
+</g>
+</svg>
